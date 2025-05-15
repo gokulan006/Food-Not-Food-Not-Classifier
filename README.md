@@ -31,7 +31,7 @@ Once trained, you can use the model to classify new text samples:
 ```python
 from transformers import pipeline
 
-classifier = pipeline("text-classification", model="your_model_path")
+classifier = pipeline("text-classification", model="gokulan006/food101")
 text = "This pizza is delicious!"
 prediction = classifier(text)
 print(prediction)
